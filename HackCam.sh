@@ -2,8 +2,8 @@ banner() {
 clear
 figlet -f slant "HACK CAM"|lolcat
 date | lolcat
-printf " \e[1;77m v1.0 Coded By Fake\e[0m \n"
-printf " \033[36;1m Author : FAKE (Team Rokes 315)\n"                printf " \033[36;1m Github : https://github.com/heck221\n"
+printf " \e[1;77m v2.0 Coded By Mr.W4W4N\e[0m \n"
+printf " \033[36;1m Author : Mr.W4W4N (Team Rokes 315)\n"                printf " \033[36;1m Github : https://github.com/heck221\n"
 printf "\033[36;1m_____________________________________________________________\e[0m \n"
 }
 stop() {
