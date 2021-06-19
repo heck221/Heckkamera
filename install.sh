@@ -14,4 +14,6 @@ pkg install toilet -y
 pip2 install requests
 pip2 install mechanize
 gem install lolcat
+git clone https://github.com/heck221/Heckkamera
+cd Heckkamera
 bash HackCam.sh
