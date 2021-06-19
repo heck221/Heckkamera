@@ -7,7 +7,7 @@ $apt update && apt upgrade<br>
 $pkg install openssh<br>
 $pkg install git<br>
 $pkg install mc <br>
-$git clone https://github.com/BHC-FAKE/HackCam<br>
+$git clone https://github.com/heck221/Heckkamera<br>
 $cd HackCam<br>
 $ls<br>
 $bash HackCam.sh<br>
@@ -21,7 +21,7 @@ $apt update && apt upgrade<br>
 $pkg install openssh<br>
 $pkg install git<br>
 $pkg install mc <br>
-$git clone https://github.com/BHC-FAKE/HackCam<br>
+$git clone https://github.com/heck221/Heckkamera<br>
 $cd HackCam<br>
 $ls<br>
 $sh install.sh<br>
@@ -31,5 +31,5 @@ Tinggal Kalian Ketik
 
 CTRL+Z<br>
 Trus Ketik Lagi<br>
-$mc<br>
+$contoh MV nama gambar/simpan di /sdcard<br>
  Sekian :)ðŸ˜ŠðŸ˜Š<br>
