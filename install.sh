@@ -1,5 +1,5 @@
 clear
-figlet -f slant "W A I T"|lolcat
+figlet -f slant "Sabar Lagi Install Alatnya"|lolcat
 apt update && apt upgrade
 pkg install python2 -y
 pkg install git -y
