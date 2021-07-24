@@ -10,7 +10,7 @@ $pkg install mc <br>
 $git clone https://github.com/heck221/Heckkamera<br>
 $cd HackCam<br>
 $ls<br>
-$bash HackCam.sh<br>
+$sh install.sh<br>
 
 
 Kalo ada yang salah i'm sorry
